@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*background-image: url('http://d5qsyj6vaeh11.cloudfront.net/images/destinations/star%20wars/star-wars-landing/SW-node-Background.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(54, 204, 30)
+}
+
+.v-card {
+  flex-basis: 30%;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.each-card {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.pilot {
+  color: white;
+  text-align: center;
+}
